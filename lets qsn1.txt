@@ -1,0 +1,9 @@
+<html>
+    <head>
+    <body>
+        <script type="text/javascript">
+              console.log(prompt("enter anything"));
+        </script>
+        </head>
+    </body>
+</html>
