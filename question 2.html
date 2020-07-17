@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title> 
+		Question 2
+	</title> 
+</head> 
+
+<body > 
+		
+		<p id="G"> 
+			Click the button 
+		</p> 
+		
+		<input type="button" value="click " onclick="myGeeks()"> 
+	
+	<script> 
+		function myGeeks() { 
+			var str =prompt("enter os name and version"); 
+			var matches = str.match(/(\d+)/);
+			if (matches) { 
+				document.getElementById('G').innerHTML 
+						= "the os name is android and the version is "+matches[0]; 
+			} 
+		} 
+	</script> 
+</body> 
+</html>								 
+							 
+							 
